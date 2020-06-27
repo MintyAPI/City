@@ -1,0 +1,6 @@
+name: CityBuild-System
+version: 0.1
+author: PaulAPI_MintyAPI
+main: de.cb.main.CityBuild
+
+commands:
