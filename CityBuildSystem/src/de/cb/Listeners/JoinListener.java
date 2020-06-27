@@ -9,12 +9,11 @@
 package de.cb.Listeners;
 
 import de.cb.methoden.ScorboardMethode;
+import net.nifheim.beelzebu.coins.CoinsAPI;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-import org.bukkit.scoreboard.Scoreboard;
-import org.bukkit.scoreboard.ScoreboardManager;
 
 public class JoinListener implements Listener {
 
@@ -25,5 +24,7 @@ public class JoinListener implements Listener {
         e.setJoinMessage(null);
 
         ScorboardMethode.setScoreboard(p);
+
+        CoinsAPI.addCoins(p.getUniqueId(), 1000, true);
     }
 }

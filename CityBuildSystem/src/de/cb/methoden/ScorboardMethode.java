@@ -27,7 +27,7 @@ public class ScorboardMethode {
 
         obj.getScore("§1 ").setScore(15);
         obj.getScore("§8•● §6Profil").setScore(14);
-        obj.getScore("§8➥ §a§ " + p.getName()).setScore(13);
+        obj.getScore("§8➥ §b§l " + p.getName()).setScore(13);
         obj.getScore("§2 ").setScore(12);
         obj.getScore("§8•● §6Rang").setScore(11);
         if(p.hasPermission("sc.Admin"))
@@ -53,11 +53,12 @@ public class ScorboardMethode {
         else if (p.hasPermission("sc.Spieler"))
             obj.getScore("§8➥ §7Spieler").setScore(10);
         obj.getScore("§4 ").setScore(9);
-        obj.getScore("§8•● §7Money").setScore(8);
+        obj.getScore("§8•● §6Money").setScore(8);
         obj.getScore("§8➥ §b§l" + CoinsAPI.getCoins(p.getUniqueId().toString())).setScore(7);
-        obj.getScore("§8•● §6TeamSpeak").setScore(6);
-        obj.getScore("§8➥ §b§lSuchtingCloud.net").setScore(5);
-        obj.getScore("§6 ").setScore(4);
+        obj.getScore("§5 ").setScore(6);
+        obj.getScore("§8•● §6TeamSpeak").setScore(5);
+        obj.getScore("§8➥ §b§lSuchtingCloud.net").setScore(4);
+        obj.getScore("§6 ").setScore(3);
         p.setScoreboard(sb);
     }
 }
