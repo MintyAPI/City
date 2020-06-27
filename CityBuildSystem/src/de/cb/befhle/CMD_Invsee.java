@@ -8,5 +8,13 @@
 
 package de.cb.befhle;
 
-public class CMD_Invsee {
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+
+public class CMD_Invsee implements CommandExecutor {
+    @Override
+    public boolean onCommand(CommandSender sender, Command CMD, String label, String[] args) {
+        return false;
+    }
 }

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Coinibono">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../wf/plugins/Coinibono.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -8,5 +8,13 @@
 
 package de.cb.befhle;
 
-public class CMD_Website {
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+
+public class CMD_Website implements CommandExecutor {
+    @Override
+    public boolean onCommand(CommandSender sender, Command CMD, String label, String[] args) {
+        return false;
+    }
 }
