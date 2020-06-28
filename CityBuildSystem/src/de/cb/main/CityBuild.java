@@ -10,6 +10,7 @@ public class CityBuild extends JavaPlugin {
     public static String Prefix = "§7[§9CityBuild§7] ";
     public static String noPerm = "§7Dazu hast du keine §cRechte§7!";
     public static String notfound = "§7Der §cSpieler §7wurde nicht gefunden.";
+    //Hallo
 
     @Override
     public void onEnable() {
