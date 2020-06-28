@@ -25,6 +25,5 @@ public class JoinListener implements Listener {
 
         ScorboardMethode.setScoreboard(p);
 
-        CoinsAPI.addCoins(p.getUniqueId(), 1000, true);
     }
 }
