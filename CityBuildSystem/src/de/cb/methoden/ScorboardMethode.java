@@ -1,9 +1,9 @@
 //////////////////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2020. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-// Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
-// Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
-// Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
-// Vestibulum commodo. Ut rhoncus gravida arcu.
+// Copyright (c)
+//
+//
+//
+//
 //////////////////////////////////////////////////////////////////////////////////////////
 
 package de.cb.methoden;
@@ -54,7 +54,7 @@ public class ScorboardMethode {
             obj.getScore("§8➥ §7Spieler").setScore(10);
         obj.getScore("§4 ").setScore(9);
         obj.getScore("§8•● §6Money").setScore(8);
-        obj.getScore("§8➥ §b§l" + CoinsAPI.getCoins(p.getUniqueId().toString())).setScore(7);
+        obj.getScore("§8➥ §b§lComing Soon").setScore(7);
         obj.getScore("§5 ").setScore(6);
         obj.getScore("§8•● §6TeamSpeak").setScore(5);
         obj.getScore("§8➥ §b§lSuchtingCloud.net").setScore(4);

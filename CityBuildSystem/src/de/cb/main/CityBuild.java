@@ -25,5 +25,6 @@ public class CityBuild extends JavaPlugin {
         getCommand("Tpa").setExecutor(new CMD_TPA());
         getCommand("Tpo").setExecutor(new CMD_TPO());
         getCommand("Tpaccept").setExecutor(new CMD_TPAceept());
+
     }
 }
