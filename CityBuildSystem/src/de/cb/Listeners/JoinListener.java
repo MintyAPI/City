@@ -9,7 +9,6 @@
 package de.cb.Listeners;
 
 import de.cb.methoden.ScorboardMethode;
-import net.nifheim.beelzebu.coins.CoinsAPI;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
